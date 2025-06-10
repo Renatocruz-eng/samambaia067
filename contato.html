@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato - Samambaia067</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .contato {
+      padding: 60px 20px;
+      background: #111822;
+      color: #E0FFE3;
+    }
+    .contato .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contato h2 {
+      margin-bottom: 30px;
+      color: #00FF99;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #00FF99;
+      background: #1F1F1F;
+      color: #fff;
+      font-size: 1em;
+    }
+    button {
+      padding: 12px;
+      background: #00FF99;
+      border: none;
+      border-radius: 6px;
+      color: #0F0F0F;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #00cc7a;
+    }
+    .whatsapp-link {
+      display: block;
+      margin-top: 30px;
+      text-align: center;
+    }
+    .whatsapp-link a {
+      color: #00FF99;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html">
+        <img src="images/logo_samambaia067_site.png" alt="Logo Samambaia067" class="logo-img" />
+      </a>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contato">
+    <div class="container">
+      <h2>Fale com a Samambaia067</h2>
+      <form action="#" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <textarea name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+
+      <div class="whatsapp-link">
+        <p>Prefere falar direto no Whats? <a href="https://wa.me/5567996150440" target="_blank">Clique aqui e fale com a gente!</a></p>
+      </div>
+    </div>
+  </section>
+  <section class="mapa">
+  <h3>Nos encontre aqui</h3>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1459.52377627354!2d-54.81560021584158!3d-22.22897990617102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9489a84e80cdd025%3A0x6a959cf6548e1381!2sR.%20Melvin%20Jones%2C%20406%20-%20Centro%2C%20Dourados%20-%20MS%2C%2079803-010!5e1!3m2!1spt-BR!2sbr!4v1749573638753!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+
+  <footer class="footer">
+  <p>© 2025 Samambaia067 • Estúdio Digital do Cerrado</p>
+  <p>Rua Melvin Jones 406, sala 3 Centro - Dourados </p>
+  <p class="cnpj">CNPJ: 59.771.184/0001-36</p>
+</footer>
+
+</body>
+</html>
